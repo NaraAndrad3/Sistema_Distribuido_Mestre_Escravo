@@ -9,7 +9,7 @@ public class MestreServer {
         server.createContext("/processar", new MestreHandler());
         server.setExecutor(Executors.newCachedThreadPool());
         server.start();
-        System.out.println("SEvidor Mestre  iniciado na porta 8080...");
+        System.out.println("SEvidor Mestre  iniciado na porta 8080");
     }
 }
 
