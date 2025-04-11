@@ -19,6 +19,6 @@ public class EscravoLetras {
         });
         server.setExecutor(Executors.newCachedThreadPool());
         server.start();
-        System.out.println("Servidor EscravoLetras iniciado na porta 8081...");
+        System.out.println("Servidor EscravoLetras iniciado na porta 8081");
     }
 }
